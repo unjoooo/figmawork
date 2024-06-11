@@ -1,0 +1,31 @@
+section#product{
+    display: inline-flex;
+    padding: 242px 239px 268px 241px;
+    justify-content: center;
+    align-items: center;
+   div.inner{
+    width: 1440px;
+    height: 570px;
+      h2.title{
+        display: flex;
+        width: 571px;
+        height: 50px;
+        padding: 0px 40px 0px 39px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      ul.productlist{
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+         li{
+            width: 330px;
+            height: 480px;
+            a{
+               img{}
+             }
+            }
+        }
+    }
+}
